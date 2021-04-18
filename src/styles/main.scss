@@ -1,0 +1,18 @@
+.root{
+    background-color: #343539;
+    width: 100vw;
+    height: 100%;
+}
+
+.main{
+    padding-left: 8.5%;    
+}
+
+$layout-breakpoint: 1150px;
+
+@media (max-width: $layout-breakpoint) {
+    .main{
+        padding: 0;    
+    }
+
+}
