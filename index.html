@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<script defer src="main.js"></script><link href="main.css" rel="stylesheet"></head>
+<body class="root">
+    <main class="main">
+        <form class="form" action="submit">
+            <h1 class="form__title">FTL: Прямая машина</h1>
+            <div class="form__wrap form__wrap_wide">
+                <p class="form__subtitle"><span class="form__bullet">1</span>Маршрут</p>
+                <label class="form__label">Откуда<input class="form__input" type="text"></label>
+                <label class="form__label">Куда<input class="form__input" type="text"></label>
+            </div>
+            <div class="form__wrap form__wrap_half">
+                <p class="form__subtitle"><span class="form__bullet">2</span>Транспорт</p>
+                <label class="form__label form__label_select form__label_half">Грузоподъёмность
+                    <input class="form__input" type="text" placeholder="Не выбрана">
+                    <span class="form__arrow"></span>
+                    <ul class="form__list">
+                        <li class="form__item">Вариант 1</li>
+                        <li class="form__item">Вариант 2</li>
+                        <li class="form__item">Вариант 3</li>
+                        <li class="form__item">Вариант 4</li>
+                        <li class="form__item">Вариант 5</li>
+                    </ul>
+                </label>
+                <label class="form__label form__label_select form__label_half">Способ погрузки
+                    <input class="form__input" value="Задняя" type="text">
+                    <span class="form__arrow"></span>
+                    <ul class="form__list">
+                        <li class="form__item">Вариант 1</li>
+                        <li class="form__item">Вариант 2</li>
+                        <li class="form__item">Вариант 3</li>
+                        <li class="form__item">Вариант 4</li>
+                        <li class="form__item">Вариант 5</li>
+                    </ul>
+                </label>
+            </div>
+            <div class="form__wrap form__wrap_half">
+                <p class="form__subtitle"><span class="form__bullet">3</span>Груз</p>
+                <label class="form__label form__label_select ">Тип груза
+                    <input class="form__input" type="text" placeholder="Не выбран">
+                    <span class="form__arrow"></span>
+                    <ul class="form__list">
+                        <li class="form__item">Вариант 1</li>
+                        <li class="form__item">Вариант 2</li>
+                        <li class="form__item">Вариант 3</li>
+                        <li class="form__item">Вариант 4</li>
+                        <li class="form__item">Вариант 5</li>
+                    </ul>
+                </label>
+                <label class="form__label form__label_select form__label_half">Класс опасности
+                    <input class="form__input" maxlength="4" type="text" value="Класс 5 — Окисляющие вещества и органические перекиси
+                    " placeholder="Не выбран">
+                    <span class="form__arrow"></span>
+                    <ul class="form__list">
+                        <li class="form__item">Вариант 1</li>
+                        <li class="form__item">Вариант 2</li>
+                        <li class="form__item">Вариант 3</li>
+                        <li class="form__item">Вариант 4</li>
+                        <li class="form__item">Вариант 5</li>
+                    </ul>
+                </label>
+                <label class="form__label form__label_half">Объявленная ценность, &#8381;
+                    <input class="form__input" placeholder="&#8805; 1" type="text">
+                </label>
+                <label class="form__label form__label_checkbox">
+                    <input type="checkbox" class="form__input form__input_checkbox">
+                    <span class="form__checkmark"></span>
+                    Требуется температурный режим
+                </label>
+                <label class="form__label form__label_temp form__label_disabled form__label_half">От, °C
+                    <input class="form__input" value="-20" type="text" placeholder="Не выбрана">
+                </label>
+                <label class="form__label form__label_temp form__label_disabled form__label_half">До, °C
+                    <input class="form__input" value="+23" type="text">
+                </label>
+            </div>
+            <div class="form__wrap form__wrap_wide">
+                <p class="form__subtitle"><span class="form__bullet">4</span>Время</p>
+                <span class="form__text">
+                    <span class="form__text">Когда прибыть на точку</span>
+                    <span class="form__text">700 км в день</span>
+                </span>
+                <label class="form__label form__label_time form__label_time-active">
+                    <input class="form__input form__input_dark" placeholder="Адрес не указан" type="text">
+                </label>
+                <label class="form__label form__label_time">
+                    <input class="form__input form__input_dark" placeholder="Адрес не указан" type="text">
+                </label>
+                <label class="form__label"> Комментарий к заказу
+                    <textarea class="form__textarea"
+                        placeholder="Укажите особенности въезда на территорию склада или подъезда к адресу"
+                        name="comments"></textarea>
+                </label>
+            </div>
+            <p class="form__comment">Для расчета стоимости необходимо ввести параметры груза, пункты отправки и
+                прибытия.</p>
+        </form>
+    </main>
+</body>
+</html>
