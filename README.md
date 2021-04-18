@@ -1,6 +1,6 @@
 # test-task
 
-Ссылка на git-pages: https://kolenhen.github.io/
+Ссылка на git-pages: https://kolenhen.github.io/test-dot/
 
 ## Использованные технологии
 
@@ -14,7 +14,7 @@
 ### Инструкция по разрёртыванию проекта:
 ```bash
 # клонирование репозитория
-$ git clone https://github.com/KoLenhen/slider-test-react.git
+$ git clone https://github.com/KoLenhen/test-dot.git
 
 # установка зависимостей
 $ npm install
