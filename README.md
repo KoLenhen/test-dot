@@ -1,6 +1,6 @@
 # test-task
 
-Ссылка на git-pages: https://kolenhen.github.io/test-dot/
+Ссылка на git-pages: https://Kolezhanchik.github.io/test-dot/
 
 ## Использованные технологии
 
